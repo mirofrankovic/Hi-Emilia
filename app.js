@@ -1,7 +1,6 @@
 $(document).ready(function(){
-    $("p").click(function(){
-     $(this).hide();
-    });
+    $("p").text("This is not a joke");
+    $(this).onclick("hide");
 });
 function run () {
     alert ("You Clicked!");
